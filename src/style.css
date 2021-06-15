@@ -1,0 +1,72 @@
+body{
+    background-image: url(ima.jpg);
+}
+
+header {
+    font-size: 50px;
+    color: rgb(223, 6, 6);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;
+    text-align: center;
+    text-shadow: 2px 2px 7px rgb(121, 19, 19);
+    -webkit-text-stroke: 1px rgb(235, 225, 135);
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    -webkit-text-stroke: 0.3px rgb(184, 62, 62);
+    font-weight: bold;
+}
+
+.mensaje-form{
+    background: rgba(5, 7,5, 0.30);
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 1% 4% 4% 4%;        
+    width: 25%;
+    border-radius: 20px;
+    border: 2px solid blue;
+    margin: auto;
+}
+
+#div1{
+    position: relative;
+    left: 20%;
+}
+
+#div2{
+    position: relative;
+    left: 25%;
+}
+
+.textarea{
+  
+    width:100%;  
+    border: 1px solid rgb(55, 0, 255);
+    border-radius: 5px;
+    
+}
+.desplazamiento{
+    width:70%;  
+    border: 1px solid rgb(55, 0, 255);
+    border-radius: 5px;
+}
+
+.btnBoton{
+    
+
+    background: rgb(139, 103, 172); 
+    color:black;      
+    border-radius: 5px;    
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#btnDescifra{
+    position: relative;
+    left: 65%;
+
+}

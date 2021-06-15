@@ -6,8 +6,24 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+    <header>Cifra tu Mensaje!!!</header>
+    <div class="mensaje-form" id="div1">
+    
+        <p>Escribe el mensaje:</p>
+      <textarea class="textarea" id="txtaMensaje" cols="30" rows="10" minlength="1"></textarea>
+
+      <p>Desplazamiento:</p>
+      <input type="text" class="desplazamiento" id="txtDes" >
+
+      <input type="button" class="btnBoton" value="Cifrar" id="btnCifrar">           
+
+    </div>
+
+    <div class="mensaje-form" id="div2">
+      <p>Mensaje Cifrado:</p>
+      <textarea class="textarea" id="textaCifrado" cols="30" rows="10" minlength="1"></textarea>
+
+      <input type="button" class="btnBoton" value="Descifrar" id= "btnDescifra">
     </div>
     <script src="index.js" type="module"></script>
   </body>
